@@ -42,6 +42,12 @@ p{
 	margin-bottom:30px;
 }
 
+li{
+	font-size:1.5em;
+	color:#b2a493;
+	margin-bottom:30px;
+}
+
 
 pre{
 	font-size:1.5em;
@@ -77,6 +83,23 @@ a{
 	color:#f5c2e7;
 	padding:30px 30px;
 	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+
+	font-size:1.5em;
+}
+
+.anotherlink{
+	margin:10px;
+	margin-top:20px;
+	margin-left:5%;
+	margin-right:5%;
+	width:90%;
+
+	background-color:#403930;
+	border-radius:10px;
+	color:#f5c2e7;
+	padding:30px;
 	text-decoration:none;
 	display:inline-block;
 
