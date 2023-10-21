@@ -11,9 +11,14 @@ body{
 img{
 	display:block;
 	margin:0 auto;
-	margin-bottom:60px;
+	margin-bottom:50px;
+	margin-top:50px;
 	width: 70%;
 	max-width: 700px;
+}
+
+ul{
+	color:#b2a493;
 }
 
 h1{
@@ -37,6 +42,12 @@ p{
 	margin-bottom:30px;
 }
 
+a{
+	font-size:1.5em;
+	color:#fab387;
+	margin-bottom:30px;
+}
+
 pre{
 	font-size:1.5em;
 	color:#b2a493;
@@ -47,6 +58,34 @@ pre{
 	padding:30px;
 }
 
+.alink{
+	margin:10px;
+	margin-top:20px;
+
+	background-color:#403930;
+	border-radius:10px;
+	color:#f5c2e7;
+	padding:30px 30px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+
+	font-size:1.5em;
+
+
+}
+
+
+.altext{
+	font-size:2em;
+	color:#f5c2e7;
+	display:inline;
+	background-color:#1b1611;
+	padding:15px 30px;
+	text-decoration:none;
+	margin-top:20px;
+	margin-bottom:20px;
+}
 
 .basic{
 	width:auto;
