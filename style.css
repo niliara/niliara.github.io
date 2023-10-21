@@ -24,12 +24,12 @@ ul{
 h1{
 	font-size:3em;
 	color:#f4e3cd;
-	text-align: center;
 }
 
 h2{
 	font-size:2em;
 	color:#ecdac2;
+	margin-top:50px;
 }
 
 h3{
@@ -42,26 +42,30 @@ p{
 	margin-bottom:30px;
 }
 
-a{
-	font-size:1.5em;
-	color:#fab387;
-	margin-bottom:30px;
-}
 
 pre{
 	font-size:1.5em;
 	color:#b2a493;
-	margin:30px;
+	margin:3%;
 	font-family:monospace;
 	background-color:#1b1611;
 	border-radius:30px;
 	padding:30px;
 }
 
+a{
+	text-decoration:inherit;
+	margin:0px;
+	color:#f9e2af;
+}
+
 .centr{
+	text-align:center;
+}
+
+.centr-wide{
 	margin:0 auto;
 	text-align:center;
-	display:block;
 }
 
 .alink{
