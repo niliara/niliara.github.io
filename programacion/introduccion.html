@@ -10,9 +10,9 @@
 	<p>
 	<a href="../index.html">Manual/</a>
 	<a href="../Programacion.html">Programacion/</a>
-	introducción-c-sharp
+	introduccion
 	</p>
-	<h1>Introduccion a C#</h1>
+	<h1>Introducción a C#</h1>
 	<p>C# es el lenguaje que utilitzamos para aprender los fonamentos de la programación.
 	Es un lenguaje de
 	<a href="https://es.wikipedia.org/wiki/Lenguaje_de_alto_nivel">alto nivel</a>
@@ -31,7 +31,7 @@
 	<p>Para compilar un .exe, hay que utilizar el siguiente comando:</p>
 	<pre>dotnet publish -r win64</pre>
 
-	<p>o para usuarios de windows:</p>
+	<p>o para los usuarios de windows:</p>
 	<pre>dotnet publish</pre>
 
 	<h2>Hello world</h2>
@@ -42,20 +42,35 @@ class Program
 {
 	public static void Main(string[] args)
 	{
-
+		Console.WriteLine("Hello world");
 	}
 }</pre>
 
 	<p>Para empezar, en Program.cs tenemos que cambiarlo por la plantilla que aprendimos en clase.
 	añadimos un ConsoleWriteLine, que es el equivalente a un "print" en python.
 	</p>
+	<p>Después de cada comando hay que poner ;
+	y los {} sirven para declarar qué está dentro de cada función.</p>
+
+	<h2>Comentarios</h2>
+
+	<p>Para poner un comentario, escribir // para marcar una línia.</p>
+	<pre>//esto es un comentario</pre>
+
+	<p>También se puede escribir /* y */
+	para marcar principio y final del comentario</p>
+	<pre>/*esto
+es
+un
+comentario
+*/</pre>
 	
 
 
 
 	<div class="centr-wide">
 	<a class="alink" href="">Anterior</a>
-	<a class="alink" href="">Siguiente</a>
+	<a class="alink" href="variables.html">Siguiente</a>
 
 
 	</div>

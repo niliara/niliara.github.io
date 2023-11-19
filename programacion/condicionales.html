@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../style.css">
+	<title>DAW programacion</title>
+</head>
+<body>
+	<div class="basic">
+
+	<p>
+	<a href="../index.html">Manual/</a>
+	<a href="../Programacion.html">Programacion/</a>
+	condicionales
+	</p>
+	<h1>Condicionales en C#</h1>
+
+	<p>Los condicionales manejan la toma de decisiones del programa.
+	Dependiendo de si las condaciones se cumplen (true) o no (false),
+	se ejecutarán unos comandos o otros.</p>
+
+	<h2>Condicional if</h2>
+	
+	<pre>
+bool printHelloWorld = true;
+
+if (printHelloWorld)
+{
+	Console.WriteLine("Hello World!");
+}</pre>
+
+	<p>En éste ejemplo, se comprueba si la condición
+	printHelloWorld
+	se cumple (true) o no (false).</p>
+	
+	<p>En éste caso, sí que se cumple (es true),
+	por lo tanto el programa ejecutará el código dentro del if
+	(delimitado por {}).</p>
+
+
+	<h2>Condicional else</h2>
+	
+	<pre>
+if (printHelloWorld)
+{
+	Console.WriteLine("Hello World");
+}
+
+else
+{
+	Console.WriteLine("Bye World");
+}</pre>
+
+	<p>Éste ejemplo es igual al anterior,
+	excepto que en caso de que la condición no se cumpla,
+	se ejecutará el código dentro de else {}.</p>
+
+
+	<h2>Comparaciones</h2>
+
+	<p>Se pueden usar comparaciones como condiciones,
+	siendo el resultado de la comparación un valor boolean:</p>
+	<ul>
+		<li>== : igual a</li>
+		<pre>if (0 == 0) //true</pre>
+
+		<li>!= : no igual a</li>
+		<pre>if (0 == 0) //false</pre>
+
+		<li>&lt; : más pequeño que</li>
+		<pre>if (1 &lt; 2) //true
+if (2 &lt; 2) //false</pre>
+
+		<li>&gt; : más grande que</li>
+		<pre>if (2 &gt; 1) //true
+if (2 &gt; 2) //false</pre>
+
+		<li>&lt; : más pequeño o igual que</li>
+		<pre>if (1 &lt;= 2) //true
+if (2 &lt;= 2) //true</pre>
+
+		<li>&gt; : más grande o igual que</li>
+		<pre>if (2 &gt;= 1) //true
+if (2 &gt;= 2) //true</pre>
+
+	</ul>
+
+
+	<h2>Ejemplo: comprobar si el usuario es mayor de edad</h2>
+	<pre>
+Console.Write("Dime tu edad: ");
+age = int.Parse(Console.ReadLine());
+
+if (age &gt;= 18)
+{
+	Console.WriteLine("Eres mayor de edad");
+}
+
+else
+{
+	Console.WriteLine("Eres menor de edad");
+}</pre>
+
+
+	<div class="centr-wide">
+	<a class="alink" href="variables.html">Anterior</a>
+	<a class="alink" href="bucles.html">Siguiente</a>
+	</div>
+
+	</div>
+</body>
+</html>

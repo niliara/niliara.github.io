@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../style.css">
+	<title>DAW programacion</title>
+</head>
+<body>
+	<div class="basic">
+
+	<p>
+	<a href="../index.html">Manual/</a>
+	<a href="../Programacion.html">Programacion/</a>
+	variables
+	</p>
+	<h1>Variables en C#</h1>
+	<p>C# es un lenguaje tipado,
+	por lo que hay que especificar el tipo de variable antes de declararla.</p>
+	<p>Por ejemplo, vamos a crear una variable integer de valor 5:</p>
+	<pre>int numeroCinco = 5;</pre>
+
+	<h2>Tipos de variables</h2>
+	<p>Hay muchos tipos de variables en C#, pero los principales son:</p>
+	<ul>
+		<li>int : Integer, numero entero</li>
+	<pre>int nom = 6;</pre>
+
+		<li>float : Float, numero decimal, se separa con un punto</li>
+	<pre>float nom = 6.2;</pre>
+
+		<li>bool : Boolean, puede ser true o false</li>
+	<pre>
+bool nom = true;
+bool nom = false;</pre>
+
+		<li>string : Variable de texto,
+			se declara con el uso de comillas</li>
+	<pre>string nom = "no hi ha pressupost per wifi";</pre>
+
+	</ul>
+
+
+	<h2>Pedir valores al usuario</h2>
+	<p>Para pedir un valor al usuario,
+	usaremos Console.ReadLine,
+	que devuelve lo que el usuario escriba en forma de string.</p>
+	
+	<pre>
+Console.WriteLine("Dame un numero");
+string answer = Console.ReadLine();</pre>
+
+	<p>En este ejemplo,
+	el programa pide al usuario una respuesta
+	y la almacena en la variable answer.</p>
+	<p>Si queremos ver el valor,
+	se puede imprimir de la siguiente manera:</p>
+
+	<pre>Console.WriteLine(answer);</pre>
+
+	<h2>Convertir string a int</h2>
+	<p>Podemos convertir el string del ejemplo anterior a una variable de tipo integer
+	utilizando int.Parse:</p>
+	<pre>int converted = int.Parse(answer);</pre>
+
+	<p>Convert.ToInt32 también hace la misma función:</p>
+	<pre>int converted = Convert.ToInt32(answer);</pre>
+
+	<h2>Pedir un número al usuario:</h2>
+	<pre>int answer = int.Parse(Console.ReadLine());</pre>
+
+	<div class="centr-wide">
+	<a class="alink" href="introduccion.html">Anterior</a>
+	<a class="alink" href="condicionales.html">Siguiente</a>
+	</div>
+
+	</div>
+</body>
+</html>
