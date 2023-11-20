@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../style.css">
+	<title>DAW programacion</title>
+</head>
+<body>
+	<div class="basic">
+
+	<p>
+	<a href="../index.html">Manual/</a>
+	<a href="../Programacion.html">Programacion/</a>
+	switch
+	</p>
+
+	<h1>Switch en C#</h1>
+	<p>Los switch son condicionales que se usan para
+	manejar muchas posibilidades a la vez.
+	De esta forma, podemos evitar cadenas de if / else.</p>
+	<p>Por ejemplo, este código:</p>
+	<pre>
+if (color == "red")
+{
+	Sprite.modulate = "#cc0000";
+}
+
+else
+{
+	if (color == "green")
+	{
+		Sprite.modulate = "#00cc00";
+	}
+	
+	else
+	{
+		if (color == "blue")
+		{
+			Sprite.modulate = "#0000cc";
+		}
+	}
+}
+</pre>
+
+	<p>...puede substituirse por: </p>
+	<pre>
+switch (color)
+{
+	case "red":
+		Sprite.modulate = "#cc0000";
+		return;
+	case "green":
+		Sprite.modulate = "#00cc00";
+		return;
+	case "blue":
+		Sprite.modulate = "#0000cc";
+		return;
+}</pre>
+	<p>...donde "color" es la variable en la que se aplica y
+	"case" es para administrar los valores posibles y el codigo que ejecutan.</p>
+
+	<p>Es obligatorio poner "return" después de cada caso.</p>
+
+	<p>En vez de case, podemos usar "default",
+	que funciona como un "else" (se ejecuta si no se cumple ninguna).</p>
+	<pre>default:
+	Sprite.modulate = "#000000";
+	return;</pre>
+	
+
+
+	<div class="centr-wide">
+	<a class="alink" href="bucles.html">Anterior</a>
+	<a class="alink" href="">Siguiente</a>
+	</div>
+
+	</div>
+</body>
+</html>
